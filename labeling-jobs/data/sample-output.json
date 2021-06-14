@@ -1,0 +1,36 @@
+{
+    "source-ref": "s3://mlops-2021/labeling/data/1/image.jpeg",
+    "id": "1",
+    "job11-merchantName-20210611222523": {
+        "image_size": [
+            {
+                "width": 900,
+                "height": 1200,
+                "depth": 3
+            }
+        ],
+        "annotations": [
+            {
+                "class_id": 1,
+                "top": 134,
+                "left": 292,
+                "height": 61,
+                "width": 298
+            }
+        ]
+    },
+    "job11-merchantName-20210611222523-metadata": {
+        "objects": [
+            {
+                "confidence": 0
+            }
+        ],
+        "class-map": {
+            "1": "merchantName"
+        },
+        "type": "groundtruth/object-detection",
+        "human-annotated": "yes",
+        "creation-date": "2021-06-11T22:31:21.506868",
+        "job-name": "labeling-job/job11-merchantname-20210611222523"
+    }
+}
