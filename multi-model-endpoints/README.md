@@ -5,8 +5,5 @@ This directory contains the code needed to deploy a multi-model endpoint on Sage
 
 Prerequisites
 -------------
-You need to have an AWS account with admin access to run the code.
-
-Export an environment variable called `$AWS_ACCOUNT` with your account number
 
 For the python notebooks install the dependencies using `requirements.txt`. You will also need to install `pyenv`. Install its [dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment) and then run `curl https://pyenv.run | bash`. After that install python `3.6.10` with the command `pyenv install 3.6.10`

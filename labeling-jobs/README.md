@@ -3,11 +3,6 @@ This directory contains notebooks, code and data to setup a workflow for SageMak
 
 Prerequisites
 -------------
-You need to have an AWS account with admin access to run the code.
-
-Export an environment variable called `$AWS_ACCOUNT` with your account number
-Export the default AWS Region: `export AWS_DEFAULT_REGION=us-east-1`
-
 Create an IAM role called `MLOps2021Role` with the following policies:
 * AWSLambdaRole
 * AmazonSageMakerFullAccess
