@@ -6,6 +6,7 @@ Prerequisites
 You need to have an AWS account with admin access to run the code.
 
 Export an environment variable called `$AWS_ACCOUNT` with your account number
+Export the default AWS Region: `export AWS_DEFAULT_REGION=us-east-1`
 
 Create an IAM role called `MLOps2021Role` with the following policies:
 * AWSLambdaRole
@@ -19,7 +20,7 @@ Add the following trusted identities:
 * states.amazonaws.com
 * lambda.amazonaws.com
 
-Create a S3 bucket called `mlops-2021` and add the following CORS permission:
+Create a S3 bucket and add the following CORS permission:
 ```
 [
     {
@@ -34,3 +35,8 @@ Create a S3 bucket called `mlops-2021` and add the following CORS permission:
     }
 ]
 ```
+
+Export the environment variable `LABELING_S3_BUCKET` with the bucket name
+
+Ensure you have the following utilities installed:
+- zip

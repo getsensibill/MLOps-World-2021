@@ -42,7 +42,8 @@ def handler(event, context):
     
     # URL for Slack Channel
     url = os.getenv('ALERT_SLACK_URL', '')
-    requests.post(url, json=message)
+    if url:
+        requests.post(url, json=message)
     
     return {
         'statusCode': 200,
